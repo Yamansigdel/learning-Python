@@ -1,0 +1,8 @@
+my_image2=my_canvas.create_image(180,90, anchor=N, image=img2)
+my_image3=my_canvas.create_image(360,90, anchor=NE, image=img3)
+my_image4=my_canvas.create_image(120,240, anchor=W, image=img4)
+my_image5=my_canvas.create_image(240,240, anchor=CENTER, image=img5)
+my_image6=my_canvas.create_image(360,240, anchor=E, image=img6)
+my_image7=my_canvas.create_image(120,240, anchor=SW, image=img7)
+my_image8=my_canvas.create_image(240,1, anchor=S, image=img8)
+my_image9=my_canvas.create_image(360,2, anchor=SE, image=img9)
