@@ -1,5 +1,5 @@
 
-# import file
+import file
 # file=open('d:/Python Programming/My Works/Revise/file.txt','w')
 # file.write('This is a practice session \n')
 # file.close()
@@ -11,6 +11,7 @@
 # file.read()
 # file.close()
 
+#for filing with binary storage
 import shelve
 
 # shelfile=shelve.open('mydata')
@@ -20,5 +21,15 @@ import shelve
 # shelfile['cats']
 # list(shelfile.keys())
 
+#for copying and moving files
+import shutil
 
+#for deleting a file using unlink
+import os
+# os.getcwd()
+# os.unlink('mydata.dir')
+
+#for del files upto recyclebin
+import send2trash
+# send2trash.send2trash('mydata.dat')
 
