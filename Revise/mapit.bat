@@ -3,6 +3,6 @@
 
 
 @echo off
-set address="870 Valencia St."
+@REM set address="870 Valencia St."
 
-python.exe "d:\Python Programming\My Works\Revise\mapit.py" %address%
+python.exe "d:\Python Programming\My Works\Revise\mapit.py" %*
