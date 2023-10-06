@@ -7,7 +7,7 @@
 # # print(res.text[:500])
 
 
-import requests,bs4
+# import requests,bs4
 
 # try:
 #     res = requests.get('https://sherlock-holm.es/stories/plain-text/cano.txt')
@@ -28,3 +28,4 @@ import requests,bs4
 
 # print(getAmazonprice('https://www.amazon.com/Automate-Boring-Stuff-Python-Programming/dp/1593275994/')) 
    
+#from selenium import webdriver
